@@ -38,12 +38,14 @@ API Routes
 Authentication
 POST /api/auth/register: Register a new user.
 POST /api/auth/login: Log in and receive an authentication token.
+
 Job Operations
 POST /api/jobs: Create a new job listing.
 GET /api/jobs: Retrieve all job listings.
 GET /api/jobs/:id: Get a single job by ID.
 PATCH /api/jobs/:id: Update details of a specific job.
 DELETE /api/jobs/:id: Delete a job entry.
+
 Usage
 Ensure you have MongoDB running. Modify the configuration files as necessary to connect to your database.
 
